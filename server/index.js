@@ -13,7 +13,6 @@ const PORT = process.env.PORT || 8000;
 
 const app = express();
 
-
 /*
 // Add headers before the routes are defined
 app.use(function (req, res, next) {
@@ -35,10 +34,6 @@ app.use(function (req, res, next) {
   next();
 });
 
-/*
-app.use(cors({
-  origin: 'https://playpal-green.vercel.app'
-}));
 */
 app.use(cors());
 
